@@ -1,9 +1,14 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "mehedi8gb/laravel-api-kits",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "The Api starter kits for the Laravel framework.",
+    "keywords": [
+        "laravel",
+        "api",
+        "starter",
+        "kit"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
