@@ -13,11 +13,7 @@ A lightweight, scalable API starter kit for Laravel 12.
 ## Installation
 
 ```sh
-git clone https://github.com/mehedi8gb/laravel-api-kits.git
-cd laravel-api-kits
-composer install
-cp .env.example .env
-php artisan key:generate
+laravel new app --using=mehedi8gb/laravel-api-kits
 php artisan migrate --seed
 php artisan serve
 ```
@@ -26,18 +22,12 @@ php artisan serve
 
 ## 4️⃣ **Make It Developer-Friendly**
 
--   **Sanctum Auth** (Pre-configured)
+-   **JWT Auth** (Pre-configured)
 -   **Spatie Role Permissions** (Ready)
 -   **Custom API Response Handling**
+-   **Custom Helper Functions**
 -   **Testing with PestPHP**
 -   **Rate Limiting & Security Enhancements**
 -   **CORS Handling for Frontend Support**
 
 ---
-
-## 5️⃣ **Tag the Release**
-
-```sh
-git tag v1.0.0
-git push origin v1.0.0
-```
