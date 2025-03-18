@@ -21,14 +21,6 @@ class RolesAndPermissionsSeeder extends Seeder
             'create_users',
             'edit_users',
             'delete_users',
-            'view_institutions',
-            'create_institutions',
-            'edit_institutions',
-            'delete_institutions',
-            'view_courses',
-            'create_courses',
-            'edit_courses',
-            'delete_courses',
         ];
 
         foreach ($permissions as $permission) {
@@ -42,17 +34,12 @@ class RolesAndPermissionsSeeder extends Seeder
                 'create_users',
                 'edit_users',
                 'delete_users',
-                'view_institutions',
-                'create_institutions',
-                'edit_institutions',
-                'delete_institutions',
             ],
             'customer' => [
                 'view_orders',
             ],
             'staff' => [
-                'view_courses',
-                'edit_courses',
+                'view_orders',
             ],
         ];
 

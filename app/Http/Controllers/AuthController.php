@@ -35,8 +35,7 @@ use Tymon\JWTAuth\JWT;
             'name' => 'required|string|max:255',
             'email' => 'nullable|email:rfc,dns|unique:users,email|required_without:phone',
             'phone' => 'nullable|string|unique:users,phone|max:15|required_without:email',
-            'password' => 'required|string|min:6',
-            'referralId' => 'required|string',
+            'password' => 'required|string|min:6'
         ]);
 
         if (!$this->validatePhone($validated['phone'])) {

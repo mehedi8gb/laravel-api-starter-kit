@@ -17,13 +17,13 @@ class UsersSeeder extends Seeder
         UserFactory::$password = '123456';
 
         // Create Super Admin
-        $superAgent = User::factory()->create([
+        $superAdmin = User::factory()->create([
             'email' => 'admin@demo.com',
             'phone' => '123456'
         ]);
-        $superAgent->assignRole('admin');
+        $superAdmin->assignRole('admin');
 
-        UserFactory::times(20)->create();
+        UserFactory::times(5)->create();
 
 //        // Create Super Admin
 //        $superAgent = User::factory()->create([
