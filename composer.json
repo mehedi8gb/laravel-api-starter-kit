@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "mehedi8gb/laravel-api-kits",
+    "name": "mehedi8gb/laravel-api-starter-kit",
     "type": "project",
     "description": "The Api starter kits for the Laravel framework.",
     "keywords": [
