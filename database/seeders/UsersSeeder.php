@@ -17,15 +17,20 @@ class UsersSeeder extends Seeder
         UserFactory::$password = '123456';
 
         // Create Super Admin
-        $superAdmin = User::factory()->create([
-            'email' => 'admin@demo.com',
-            'phone' => '123456'
-        ]);
-        $superAdmin->assignRole('admin');
+//        $superAdmin = User::factory()->create([
+//            'email' => 'admin@demo.com',
+//            'phone' => '123456'
+//        ]);
+//        $superAdmin->assignRole('admin');
+//
+//        UserFactory::times(50)->create();
+//
+//        $users = User::whereNotIn('email', 'admin@demo.com')->get();
+//        $users->each(function ($user) {
+//            $user->assignRole('customer');
+//        });
 
-        UserFactory::times(5)->create();
-
-//        // Create Super Admin
+//        // Create Customer
 //        $superAgent = User::factory()->create([
 //            'email' => 'customer@demo.com',
 //        ]);
@@ -39,12 +44,5 @@ class UsersSeeder extends Seeder
 //                $user->assignRole('staff');
 //            });
 //
-//        $users = User::factory()
-//            ->count(10)
-//            ->create();
-//
-//        $users->each(function ($user) {
-//            $user->assignRole('customer');
-//        });
     }
 }
