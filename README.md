@@ -13,7 +13,7 @@ A lightweight, scalable API starter kit for Laravel 12.
 ## Installation
 
 ```sh
-laravel new app --using=mehedi8gb/laravel-api-startar-kits
+laravel new app --using=mehedi8gb/laravel-api-starter-kit
 php artisan migrate --seed
 php artisan serve
 ```
